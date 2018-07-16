@@ -41,9 +41,7 @@ button {
 }
 
 a {
+  color: #0f5737; 
   text-decoration: none;
-}
-
-a:hover{
-  text-shadow: 10px;
+  background-color: #f2f2f2;
 }
