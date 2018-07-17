@@ -9,38 +9,39 @@
   <div class="top">
     <p class="title">Select Your Preferences</p>
   </div>
-  <div class="columns">
+  <div class="columns" id="locations">
     <p>Locations:</p>
-    <button>Palo Alto</button>
-    <button>Mountain View</button>
-    <button>Fremont</button>
-    <button>Sunnyvale</button>
-    <button>Cupertino</button>
+    <button onclick="showMeal()">Palo Alto</button>
+    <button onclick="showMeal()">Mountain View</button>
+    <button onclick="showMeal()">Fremont</button>
+    <button onclick="showMeal()">Sunnyvale</button>
+    <button onclick="showMeal()">Cupertino</button>
   </div>
-  <div class="columns">
+  <div class="columns" id="meal">
     <p>Meal:</p>
-    <button>Breakfast</button>
-    <button>Lunch</button>
-    <button>Dinner</button>
-    <button>Snack</button>
+    <button onclick="showMood()">Breakfast</button>
+    <button onclick="showMood()">Lunch</button>
+    <button onclick="showMood()">Dinner</button>
+    <button onclick="showMood()">Snack</button>
   </div>
-  <div class="columns">
+  <div class="columns" id="mood">
     <p>Mood:</p>
-    <button>Happy</button>
-    <button>Sad</button>
-    <button>Motivated</button>
-    <button>Stressed</button>
-    <button>Hangry</button>
-    <button>Bored/Curious</button>
+    <button onclick="showPrices()">Happy</button>
+    <button onclick="showPrices()">Sad</button>
+    <button onclick="showPrices()">Motivated</button>
+    <button onclick="showPrices()">Stressed</button>
+    <button onclick="showPrices()">Hangry</button>
+    <button onclick="showPrices()">Bored/Curious</button>
   </div>
   <div class="columns" id="prices">
     <p>Expenses:</p>
-    <button>Inexpensive ($)</button>
-    <button>Moderate ($$)</button>
-    <button>Expensive ($$$)</button>
+    <button onclick="showButton()">Inexpensive ($)</button>
+    <button onclick="showButton()()">Moderate ($$)</button>
+    <button onclick="showButton()()">Expensive ($$$)</button>
   </div>
   </body>
   <div class="bottom">
-    <button>Get My Restaurant Recommendations!</button>
+    <button id="submit">Get My Restaurant Recommendations!</button>
   </div>
+  <script src="preferences.js"></script>
 </html>
