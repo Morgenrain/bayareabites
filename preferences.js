@@ -24,9 +24,3 @@ function showPrices(){
 function showButton(){
   document.getElementById('submit').style.visibility = "visible";
 }
-
-function save(){
-  document. {
-
-  }
-}
