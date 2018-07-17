@@ -2,16 +2,16 @@
   font-family: verdana;
   text-align: center;
   background-color: #ebfff0ff;
+  color: #0f5737;
 }
 
 .top {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background-color: #bef4dbff;
 }
 
 .title {
-  color: #0f5737;
   font-size: 56px;
   margin: 0px;
   background-color: #bef4dbff;
@@ -22,8 +22,36 @@
   padding-bottom: 20px;
 }
 
-.bottom {
-  background-color: #bef4dbff
+.columns {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns button {
+  background-color: #bef4dbff;
+  height: 60px;
+  width: 140px;
+}
+
+.columns p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 36px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-bottom: 0px;
+}
+
+.headings p {
+  display: inline-block;
+  font-size: 32px;
+  padding: 0px;
+}
+
+#prices {
+  margin-right: 114px;
 }
 
 button {
@@ -35,8 +63,16 @@ button {
   font-weight: bold;
 }
 
+.bottom {
+  background-color: #bef4dbff;
+}
+
+.bottom button {
+  align-items: center;
+  justify-content: center;
+}
+
 a {
-  color: #0f5737;
   text-decoration: none;
   background-color: #f2f2f2;
 }
