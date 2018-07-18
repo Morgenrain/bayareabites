@@ -3,7 +3,7 @@
 <html>
   <head>
   <link rel="stylesheet" type="text/css" href="preferences.css">
-  <script src="jquery.js"></script> 
+  <script src="jquery.js"></script>
     <title>Bay Area Bites</title>
   </head>
   <body>
@@ -12,33 +12,33 @@
   </div>
   <div class="columns" id="locations">
     <p>Locations:</p>
-    <button onclick="jQuery(this).toggleClass('active').showMeal()">Palo Alto</button>
-    <button onclick="jQuery(this).toggleClass('active').showMeal()">Mountain View</button>
-    <button onclick="jQuery(this).toggleClass('active').showMeal()">Fremont</button>
-    <button onclick="jQuery(this).toggleClass('active').showMeal()">Sunnyvale</button>
-    <button onclick="jQuery(this).toggleClass('active').showMeal()">Cupertino</button>
+    <button id="paloAlto" onclick="jQuery(this).toggleClass('active');showMeal()">Palo Alto</button>
+    <button id="mountainView" onclick="jQuery(this).toggleClass('active');showMeal()">Mountain View</button>
+    <button id="fremont" onclick="jQuery(this).toggleClass('active');showMeal()">Fremont</button>
+    <button id="sunnyvale" onclick="jQuery(this).toggleClass('active');showMeal()">Sunnyvale</button>
+    <button id="cupertion" onclick="jQuery(this).toggleClass('active');showMeal()">Cupertino</button>
   </div>
   <div class="columns" id="meal">
     <p>Meal:</p>
-    <button onclick="jQuery(this).toggleClass('active').showMood()">Breakfast</button>
-    <button onclick="jQuery(this).toggleClass('active').showMood()">Lunch</button>
-    <button onclick="jQuery(this).toggleClass('active').showMood()">Dinner</button>
-    <button onclick="jQuery(this).toggleClass('active').showMood()">Snack</button>
+    <button id="breakfast" onclick="jQuery(this).toggleClass('active');showMood()">Breakfast</button>
+    <button id="lunch" onclick="jQuery(this).toggleClass('active');showMood()">Lunch</button>
+    <button id="dinner" onclick="jQuery(this).toggleClass('active');showMood()">Dinner</button>
+    <button id="snack" onclick="jQuery(this).toggleClass('active');showMood()">Snack</button>
   </div>
   <div class="columns" id="mood">
     <p>Mood:</p>
-    <button onclick="jQuery(this).toggleClass('active').showPrices()">Happy</button>
-    <button onclick="jQuery(this).toggleClass('active').showPrices()">Sad</button>
-    <button onclick="jQuery(this).toggleClass('active').showPrices()">Motivated</button>
-    <button onclick="jQuery(this).toggleClass('active').showPrices()">Stressed</button>
-    <button onclick="jQuery(this).toggleClass('active').showPrices()">Hangry</button>
-    <button onclick="jQuery(this).toggleClass('active').showPrices()">Bored/Curious</button>
+    <button id="happy" onclick="jQuery(this).toggleClass('active');showPrices()">Happy</button>
+    <button id="sad" onclick="jQuery(this).toggleClass('active');showPrices()">Sad</button>
+    <button id="motivated" onclick="jQuery(this).toggleClass('active');showPrices()">Motivated</button>
+    <button id="stressed" onclick="jQuery(this).toggleClass('active');showPrices()">Stressed</button>
+    <button id="hangry" onclick="jQuery(this).toggleClass('active');showPrices()">Hangry</button>
+    <button id="bored" onclick="jQuery(this).toggleClass('active');showPrices()">Bored/Curious</button>
   </div>
   <div class="columns" id="prices">
     <p>Expenses:</p>
-    <button onclick="jQuery(this).toggleClass('active').showButton()">Inexpensive ($)</button>
-    <button onclick="jQuery(this).toggleClass('active').showButton()()">Moderate ($$)</button>
-    <button onclick="jQuery(this).toggleClass('active').showButton()()">Expensive ($$$)</button>
+    <button id="$" onclick="jQuery(this).toggleClass('active');showButton()">Inexpensive ($)</button>
+    <button id="$$" onclick="jQuery(this).toggleClass('active');showButton()">Moderate ($$)</button>
+    <button id="$$$" onclick="jQuery(this).toggleClass('active');showButton()">Expensive ($$$)</button>
   </div>
   </body>
   <div class="bottom">

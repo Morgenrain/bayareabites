@@ -24,3 +24,15 @@ function showPrices(){
 function showButton(){
   document.getElementById('submit').style.visibility = "visible";
 }
+
+function getInfo(){
+  var result = [];
+  var choices = document.getElementsByClassName("active");
+  for(var i=0;i<choices.length;i++){
+    choice = choices[i];
+    result.push(choice.id);
+    return result;
+  }
+}
+
+console.log(getInfo());
