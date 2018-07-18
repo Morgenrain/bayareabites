@@ -63,6 +63,12 @@ button {
   font-weight: bold;
 }
 
+.active {
+  background: #357EBD;
+  background-color: #357EBD;
+  color: #3300FF;
+}
+
 .bottom {
   background-color: #bef4dbff;
 }
