@@ -27,9 +27,7 @@ var preferences = [];
 var choices = document.getElementsByClassName("active");
 
 function get(){
-  console.log(choices);
   for (var i = 0; i < choices.length; i++) {
       preferences.push(choices[i].id);
   }
-  alert(preferences);
 }
