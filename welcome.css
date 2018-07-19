@@ -29,15 +29,19 @@
 img {
   height: 162px;
   width: auto;
+  margin-bottom: 85px
 }
 
 button {
   background-color: #f2f2f2;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 5x;
   border-radius: 4px;
   font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  width: 14em
 }
 
 a {
