@@ -79,6 +79,9 @@ button.active {
 .bottom button {
   align-items: center;
   justify-content: center;
+  font-size: 18px;
+  line-height: 2em;
+  width: 14em
 }
 
 a {
