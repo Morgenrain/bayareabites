@@ -31,3 +31,5 @@ function get(){
       preferences.push(choices[i].id);
   }
 }
+
+localStorage.setItem('myStorage', JSON.stringify(preferences));
