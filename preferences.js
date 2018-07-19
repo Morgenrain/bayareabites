@@ -1,5 +1,3 @@
-var preferences = []
-
 window.onload=hide();
 
 function hide(){
@@ -25,14 +23,13 @@ function showButton(){
   document.getElementById('submit').style.visibility = "visible";
 }
 
-function getInfo(){
-  var result = [];
-  var choices = document.getElementsByClassName("active");
-  for(var i=0;i<choices.length;i++){
-    choice = choices[i];
-    result.push(choice.id);
-    return result;
-  }
-}
+var preferences = [];
+var choices = document.getElementsByClassName("active");
 
-console.log(getInfo());
+function get(){
+  console.log(choices);
+  for (var i = 0; i < choices.length; i++) {
+      preferences.push(choices[i].id);
+  }
+  alert(preferences);
+}
