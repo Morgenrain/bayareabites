@@ -90,7 +90,3 @@ database["mountainView"]=mountainView;
 database["cupertino"]=cupertino;
 database["sunnyvale"]=sunnyvale;
 database["fremont"]=fremont;
-
-var obj = JSON.parse(localStorage.getItem('myStorage'));
-
-alert(obj);
