@@ -65,13 +65,11 @@ button {
 
 .active {
   background: #357EBD;
-  background-color: #357EBD;
   color: #3300FF;
 }
 
 button.active {
   background-color: #7ce9b6;
-
 }
 
 .bottom {
