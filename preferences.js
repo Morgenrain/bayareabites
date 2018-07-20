@@ -8,7 +8,7 @@ function hide(){
 }
 
 function showMeal(){
-  document.getElementById('meal').style.visibility = "visible";
+  document.getElementById('meal').style.visibility = "visible"; 
 }
 
 function showMood(){
