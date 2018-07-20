@@ -84,6 +84,7 @@ cupertino["Philz Coffee"]=["all", ["breakfast", "snack"], "$", "https://www.yelp
 cupertino["Vitality Bowls"]=[["happy", "motivated"], ["breakfast", "lunch"], "$$", "https://www.yelp.com/biz/vitality-bowls-cupertino"];
 cupertino["Fantasia Coffee & Tea"]=["all", ["breakfast", "snack"], "$", "https://www.yelp.com/biz/fantasia-coffee-and-tea-cupertino"];
 
+
 var database = new Map();
 database["paloAlto"]=paloAlto;
 database["mountainView"]=mountainView;
