@@ -8,7 +8,7 @@ function hide(){
 }
 
 function showMeal(){
-  document.getElementById('meal').style.visibility = "visible"; 
+  document.getElementById('meal').style.visibility = "visible";
 }
 
 function showMood(){
@@ -30,4 +30,5 @@ function get(){
   for (var i = 0; i < choices.length; i++) {
       preferences.push(choices[i].id);
   }
+  localStorage.setItem('preferences', preferences);
 }

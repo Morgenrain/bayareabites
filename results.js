@@ -90,3 +90,5 @@ database["mountainView"]=mountainView;
 database["cupertino"]=cupertino;
 database["sunnyvale"]=sunnyvale;
 database["fremont"]=fremont;
+
+var preferences = localStorage.getItem('preferences');
