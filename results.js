@@ -16,7 +16,7 @@ paloAlto.set("Bare Bowls", ["happy", "breakfast", "$$", "https://www.yelp.com/bi
 paloAlto.set("Go Fish Poke Bar", ["happy", "breakfast","$$", "https://www.yelp.com/biz/go-fish-poke-bar-palo-alto?osq=Breakfast"]);
 paloAlto.set("Taco Bell", [["happy","sad","hangry"],["breakfast", "lunch"], "$","https://www.yelp.com/biz/taco-bell-palo-alto-5?osq=Breakfast"]);
 paloAlto.set("Joanies", ["happy", ["breakfast", "lunch"], "$$","https://www.yelp.com/biz/joanies-caf%C3%A9-palo-alto-2?osq=Breakfast"]);
-paloAlto.set("Creamery", ["happy", ["breakfast", "lunch"], "$$","https://www.yelp.com/biz/palo-alto-creamery-palo-alto-2?osq=Breakfast"]);
+paloAlto.set("Creamery", ["happy", ["breakfast"], "$$","https://www.yelp.com/biz/palo-alto-creamery-palo-alto-2?osq=Breakfast"]);
 paloAlto.set("Mademoiselle Colette", ["happy", ["breakfast", "lunch"], "$","https://www.yelp.com/biz/mademoiselle-colette-palo-alto?osq=Breakfast"]);
 paloAlto.set("Varian Cafe", ["happy", ["breafast", "lunch"], "$","https://www.yelp.com/biz/varian-cafe-palo-alto?osq=Breakfast"]);
 paloAlto.set("Terrain Cafe", ["happy", ["breakfast","lunch"], "$$","https://www.yelp.com/biz/terrain-cafe-palo-alto-2?osq=Breakfast"]);
@@ -181,9 +181,9 @@ function iterate(place, meal, expense) {
   for (var value of database.get(place)) {
     if (((value[1][1] == meal)||(value[1][1].includes(meal)))) {
       if (((value[1][0] == mood)||(value[1][1].includes(mood)))) {
-        if (value[1][2] == expense) {
+        //if (value[1][2] == expense) {
           restaurants.push(value[0]);
-        }
+        //}
       }
     }
   }
