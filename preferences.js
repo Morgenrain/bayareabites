@@ -9,7 +9,6 @@ function hide(){
 
 function showMeal(){
   document.getElementById('meal').style.visibility = "visible";
-  <button onclick="breakfast('.meal')">Hide</button>
 }
 
 function showMood(){
