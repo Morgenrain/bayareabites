@@ -157,6 +157,7 @@ cupertino.set("Vitality Bowls", ["happy", "snack", "$$", "https://www.yelp.com/b
 cupertino.set("Pressed Juicery", ["happy", "snack", "$", "https://www.yelp.com/biz/pressed-juicery-cupertino-3?osq=Snack"]);
 cupertino.set("Cafe Lattea", ["happy", "snack", "$", "https://www.yelp.com/biz/cafe-lattea-cupertino?osq=Snack"]);
 
+
 var database = new Map();
 database["paloAlto"]=paloAlto;
 database["mountainView"]=mountainView;
