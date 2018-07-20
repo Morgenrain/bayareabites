@@ -130,18 +130,18 @@ mountainView.set("7-Eleven", ["happy", "snack", "$", "https://www.yelp.com/biz/7
 mountainView.set("California Mochi", ["happy", "snack", "$", "https://www.yelp.com/biz/california-mochi-mountain-view-3?osq=Snack"]);
 
 var cupertino = new Map();
-cupertino.set("Lazy Dog Restaurant & Bar", [["sad", "stressed"], ["lunch", "dinner"], "$$", "https://www.yelp.com/biz/lazy-dog-restaurant-and-bar-cupertinoo"]);
-cupertino.set("Gochi Japanese Fusion Tapas", [["happy", "bored"], "dinner", "$$$", "https://www.yelp.com/biz/gochi-japanese-fusion-tapas-cupertinoo"]);
+cupertino.set("Lazy Dog Restaurant & Bar", [["sad", "stressed"], ["lunch", "dinner"], "$$", "https://www.yelp.com/biz/lazy-dog-restaurant-and-bar-cupertino"]);
+cupertino.set("Gochi Japanese Fusion Tapas", [["happy", "bored"], "dinner", "$$$", "https://www.yelp.com/biz/gochi-japanese-fusion-tapas-cupertino"]);
 cupertino.set("Galpão Gaucho Brazilian Steakhouse ", [["happy", "bored"], "dinner", "$$$", "https://www.yelp.com/biz/plaza-deli-cafe-mountain-view-8?osq=Restaurants"]);
-cupertino.set("Ike’s Love & Sandwiches", [["motivated", "bored"], "lunch", "$$", "https://www.yelp.com/biz/ikes-love-and-sandwiches-cupertinoo-2"]);
+cupertino.set("Ike’s Love & Sandwiches", [["motivated", "bored"], "lunch", "$$", "https://www.yelp.com/biz/ikes-love-and-sandwiches-cupertino-2"]);
 cupertino.set("Roger's Deli", [["happy", "motivated"], "lunch", "$", "https://www.yelp.com/biz/zareens-mountain-view-3"]);
-cupertino.set("Red Hot Wok", [["happy", "bored"], "dinner", "$$", "https://www.yelp.com/biz/red-hot-wok-cupertinoo"]);
-cupertino.set("Aqui Cal-Mex", ["happy", "lunch", "$$", "https://www.yelp.com/biz/aqui-cal-mex-cupertinoo-3"]);
-cupertino.set("Kura Revolving Sushi Bar", ["bored", "lunch", "$$", "https://www.yelp.com/biz/kura-revolving-sushi-bar-cupertinoo-4"]);
-cupertino.set("Yiassoo", [["bored", "hangry"], "lunch", "$", "https://www.yelp.com/biz/yiassoo-cupertinoo?osq=Restaurants"]);
-cupertino.set("Philz Coffee", ["all", ["breakfast", "snack"], "$", "https://www.yelp.com/biz/philz-coffee-cupertinoo"]);
-cupertino.set("Vitality Bowls", [["happy", "motivated"], ["breakfast", "lunch"], "$$", "https://www.yelp.com/biz/vitality-bowls-cupertinoo"]);
-cupertino.set("Fantasia Coffee & Tea", ["all", ["breakfast", "snack"], "$", "https://www.yelp.com/biz/fantasia-coffee-and-tea-cupertinoo"]);
+cupertino.set("Red Hot Wok", [["happy", "bored"], "dinner", "$$", "https://www.yelp.com/biz/red-hot-wok-cupertino"]);
+cupertino.set("Aqui Cal-Mex", ["happy", "lunch", "$$", "https://www.yelp.com/biz/aqui-cal-mex-cupertino-3"]);
+cupertino.set("Kura Revolving Sushi Bar", ["bored", "lunch", "$$", "https://www.yelp.com/biz/kura-revolving-sushi-bar-cupertino-4"]);
+cupertino.set("Yiassoo", [["bored", "hangry"], "lunch", "$", "https://www.yelp.com/biz/yiassoo-cupertino?osq=Restaurants"]);
+cupertino.set("Philz Coffee", ["all", ["breakfast", "snack"], "$", "https://www.yelp.com/biz/philz-coffee-cupertino"]);
+cupertino.set("Vitality Bowls", [["happy", "motivated"], ["breakfast", "lunch"], "$$", "https://www.yelp.com/biz/vitality-bowls-cupertino"]);
+cupertino.set("Fantasia Coffee & Tea", ["all", ["breakfast", "snack"], "$", "https://www.yelp.com/biz/fantasia-coffee-and-tea-cupertino"]);
 cupertino.set("Bobbies Cafe", ["happy", "breakfast", "$", "https://www.yelp.com/biz/bobbies-cafe-cupertino-3?osq=BREAKFAST"]);
 cupertino.set("Nosh", ["happy", "breakfast", "$", "https://www.yelp.com/biz/nosh-cupertino-5?osq=BREAKFAST"]);
 cupertino.set("Bagel Street Cafe", ["happy", "breakfast", "$", "https://www.yelp.com/biz/bagel-street-cafe-cupertino-2?osq=BREAKFAST"]);
@@ -157,16 +157,47 @@ cupertino.set("Vitality Bowls", ["happy", "snack", "$$", "https://www.yelp.com/b
 cupertino.set("Pressed Juicery", ["happy", "snack", "$", "https://www.yelp.com/biz/pressed-juicery-cupertino-3?osq=Snack"]);
 cupertino.set("Cafe Lattea", ["happy", "snack", "$", "https://www.yelp.com/biz/cafe-lattea-cupertino?osq=Snack"]);
 
+var database = new Map()
+database.set("paloAlto", paloAlto);
+database.set("mountainView", mountainView);
+database.set("sunnyvale", sunnyvale);
+database.set("cupertino", cupertino);
+database.set("fremont", fremont);
 
-var database = new Map();
-database["paloAlto"]=paloAlto;
-database["mountainView"]=mountainView;
-database["cupertino"]=cupertino;
-database["sunnyvale"]=sunnyvale;
-database["fremont"]=fremont;
+var preferences = localStorage.getItem('preferences').split(',');
 
-var preferences = localStorage.getItem('preferences');
+var restaurants = []
 
-for (var value of fremont) {
-  console.log(value[1][2]);
+function calculate() {
+  console.log(preferences);
+  place = preferences[0];
+  meal = preferences[1];
+  mood = preferences[2];
+  expense = preferences[3];
+  iterate(place, meal, expense);
 }
+
+function iterate(place, meal, expense) {
+  for (var value of database.get(place)) {
+    if (((value[1][1] == meal)||(value[1][1].includes(meal)))) {
+      if (((value[1][0] == mood)||(value[1][1].includes(mood)))) {
+        if (value[1][2] == expense) {
+          restaurants.push(value[0]);
+        }
+      }
+    }
+  }
+}
+
+
+function write(){
+  for(var i=0; i<(restaurants.length); i++) {
+    var paragraph = document.createElement('p');
+    paragraph.innerHTML = innerHTML = i+1 + ". " + restaurants[i];
+    paragraph.className = "results";
+    document.body.appendChild(paragraph);
+  }
+}
+
+calculate();
+write();
