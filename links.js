@@ -95,6 +95,7 @@ var result = str.link("https://vitalitybowls.com/");
 var str = "Fantasia Coffee & Tea Menu";
 var result = str.link("https://www.menuism.com/menus/fantasia-coffee-tea-66633#fantasia-coffee-tea-cupertino-130867");
 
+
 var str = "Zareen's Restaurant Menu";
 var result = str.link("https://www.zomato.com/mountain-view-ca/zareens-restaurant-mountain-view/menu");
 
@@ -152,6 +153,7 @@ var result = str.link("https://www.tripadvisor.com/Restaurant_Review-g32761-d923
 var str = "Dana Street Roasting Company Menu";
 var result = str.link("http://www.danastreetroasting.com/menu/");
 
+
 var str = "Din Ding Dumpling House Menu";
 var result = str.link("https://www.zmenu.com/din-ding-dumpling-house-fremont-online-menu/");
 
@@ -196,6 +198,7 @@ var result = str.link("https://www.allmenus.com/ca/fremont/392243-frodo-joes-pet
 
 var str = "Federicos Grill Menu";
 var result = str.link("https://www.zmenu.com/federicos-grill-fremont-online-menu/");
+
 
 var str = "Bento Express Menu";
 var result = str.link("https://www.bentoxpress.com/menu.html");
