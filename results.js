@@ -81,14 +81,14 @@ fremont.set("Dog Haus", [["bored", "hangry", "sad", "stressed"], ["lunch", "dinn
 fremont.set("Momo Cook", [["hangry","sad","happy", "stressed"], "lunch", "$", "https://www.yelp.com/biz/momo-cook-fremont-3?osq=Restaurants"]);
 fremont.set("Bob Sang Korean BBQ and Tofu", [["bored", "happy", "motivated", "hangry"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/bob-sang-korean-bbq-and-tofu-fremont?osq=Restaurants"]);
 fremont.set("Picnic Sandwich Bistro", [["happy", "bored", "motivated", "sad", "stressed", "hangry"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/picnic-sandwich-bistro-fremont?osq=Restaurants"]);
-fremont.set("Frodo Joes Petit Cafe", [["happy", "sad", "stressed", "hangry"], "breakfast", "$", "https://www.yelp.com/biz/frodo-joes-petit-cafe-fremont?osq=Restaurants"]);
+fremont.set("Frodo Joes Petit Cafe", [["happy", "sad", "stressed", "hangry", "motivated", "bored"], "breakfast", "$", "https://www.yelp.com/biz/frodo-joes-petit-cafe-fremont?osq=Restaurants"]);
 fremont.set("Federicos Grill", [["hangry", "sad", "stressed"], ["dinner", "lunch"], "$$$", "https://www.yelp.com/biz/federicos-grill-fremont?osq=Restaurants"]);
 fremont.set("Dish-N-Dash", [["motivated", "happy", "bored", "hangry"], ["lunch", "dinner"], "$$", "https://www.yelp.com/biz/dish-n-dash-fremont-2?osq=Restaurants"]);
 fremont.set("Papillon", [["bored", "happy", "motivated"], ["dinner", "lunch"], "$$$", "https://www.yelp.com/biz/papillon-fremont?osq=Restaurants"]);
 fremont.set("Skilletz Cafe", [["happy", "hangry", "sad", "stressed"], "breakfast", "$$", "https://www.yelp.com/biz/skilletz-cafe-fremont?osq=Breakfast"]);
 fremont.set("Country Way", [["happy", "sad", "stressed", "hangry"], "breakfast", "$$", "https://www.yelp.com/biz/country-way-fremont-2?osq=Breakfast"]);
 fremont.set("Cabrillo Park", [["happy", "sad", "stressed", "hangry", "bored"], "breakfast", "$$", "https://www.yelp.com/biz/cabrillo-park-caf%C3%A9-fremont-3?osq=Breakfast"]);
-fremont.set("Daily Bagel Cafe", [["happy", "sad", "stressed", "hangry", "motivated"], "breakfast", "$", "https://www.yelp.com/biz/daily-bagel-cafe-fremont?osq=Breakfast"]);
+fremont.set("Daily Bagel Cafe", [["happy", "sad", "bored", "stressed", "hangry", "motivated"], "breakfast", "$", "https://www.yelp.com/biz/daily-bagel-cafe-fremont?osq=Breakfast"]);
 fremont.set("Vinces Cafe", [["happy", "sad", "stressed", "motivated"], ["breakfast", "lunch"], "$", "https://www.yelp.com/biz/vinces-cafe-fremont?osq=Breakfast"]);
 fremont.set("Fresh Donuts and Bagels", [["happy", "motivated", "sad", "stressed", "hangry"], "breakfast", "$", "https://www.yelp.com/biz/fresh-donuts-and-bagels-fremont?osq=Breakfast"]);
 fremont.set("Posh Bagels", [["happy", "motivated", "sad", "stressed", "hangry"], "breakfast", "$", "https://www.yelp.com/biz/posh-bagels-fremont?osq=Breakfast"]);
