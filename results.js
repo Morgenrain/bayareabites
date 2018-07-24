@@ -161,7 +161,7 @@ cupertino.set("Pressed Juicery", [["happy", "sad", "stressed", "bored"], "snack"
 cupertino.set("Cafe Lattea", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/cafe-lattea-cupertino?osq=Snack"]);
 cupertino.set("Pokeholics", [["bored", "motivated"], "snack","$$", "https://www.yelp.com/biz/pokeholics-cupertino?osq=snack"]);
 cupertino.set("La Terra Bakery and & Cafe", [["stressed", "happy"], "snack","$$", "https://www.yelp.com/biz/la-terra-bakery-and-cafe-cupertino"]);
-cupertino.set("Haidilao Hot Pot", [["happy", "bored", "hangry", "sad", "stressed", "motivated"], ["lunch", "dinner", "$$$", "https://www.yelp.com/biz/haidilao-hot-pot-cupertino?osq=Restaurants"]);
+cupertino.set("Haidilao Hot Pot", [["happy", "bored", "hangry", "sad", "stressed", "motivated"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/haidilao-hot-pot-cupertino?osq=Restaurants"]);
 
 
 var database = new Map()
