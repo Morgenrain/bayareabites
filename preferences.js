@@ -7,6 +7,19 @@ function hide(){
   document.getElementById('submit').style.visibility = "hidden";
 }
 
+function hidetriple(){
+  var choices = document.getElementsByClassName('active');
+  var array = [];
+  for (var i = 0; i < choices.length; i++) {
+      array.push(choices[i].id);
+  }
+  if ((array.includes('breakfast')) || (array.includes('snack'))) {
+      document.getElementById('$$$').style.visibility = "hidden";
+  }
+  console.log(choices);
+  console.log(array);
+}
+
 function showMeal(){
   document.getElementById('meal').style.visibility = "visible";
 }
@@ -17,6 +30,7 @@ function showMood(){
 
 function showPrices(){
   document.getElementById('prices').style.visibility = "visible";
+  hidetriple();
 }
 
 function showButton(){
