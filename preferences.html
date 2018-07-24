@@ -15,35 +15,35 @@
     <p class="paragraph">Please Only Select One Per Section</p>
   </div>
   <div
-  <div class="columns" id="location">
+  <div class="columns" id="location" data-toggle="buttons">
     <p>Location:</p>
-    <button id="paloAlto" onclick="jQuery(this).toggleClass('active');showMeal()">Palo Alto</button>
-    <button id="mountainView" onclick="jQuery(this).toggleClass('active');showMeal()">Mountain View</button>
-    <button id="fremont" onclick="jQuery(this).toggleClass('active');showMeal()">Fremont</button>
-    <button id="sunnyvale" onclick="jQuery(this).toggleClass('active');showMeal()">Sunnyvale</button>
-    <button id="cupertino" onclick="jQuery(this).toggleClass('active');showMeal()">Cupertino</button>
+    <label class="blue"><radio id="paloAlto"><input type="radio"name="toggle" onclick="jQuery(this).toggleClass('active');showMeal()"><span>Palo Alto</span></label>
+    <label class="blue"><radio id="mountainView"><input type="radio"name="toggle" onclick="jQuery(this).toggleClass('active');showMeal()"><span>MV</span></label>
+    <label class="blue"><radio id="fremont" ><input type="radio" name="toggle" onclick="jQuery(this).toggleClass('active');showMeal()"><span>fremont</span></label>
+    <label class="blue"><radio id="cupertino"><input type="radio" name="toggle" onclick="jQuery(this).toggleClass('active');showMeal()"><span>cupertino</span></label>
+    <label class="blue"><radio id="Sunnyvale"><input type="radio" name="toggle" onclick="jQuery(this).toggleClass('active');showMeal()"><span>Sunnyvale</span></label>
   </div>
-  <div class="columns" id="meal">
+  <div class="columns" id="meal" data-toggle="buttons">
     <p>Meal:</p>
-    <button id="breakfast" onclick="jQuery(this).toggleClass('active');showMood()">Breakfast</button>
-    <button id="lunch" onclick="jQuery(this).toggleClass('active');showMood()">Lunch</button>
-    <button id="dinner" onclick="jQuery(this).toggleClass('active');showMood()">Dinner</button>
-    <button id="snack" onclick="jQuery(this).toggleClass('active');showMood()">Snack</button>
+    <label class="blue"><radio id="breakfast"><input type="radio"name="toggle2" onclick="jQuery(this).toggleClass('active');showMood()"><span>breakfast</span></label>
+    <label class="blue"><radio id="lunch" ><input type="radio" name="toggle2" onclick="jQuery(this).toggleClass('active');showMood()"><span>lunch</span></label>
+    <label class="blue"><radio id="dinner"><input type="radio" name="toggle2" onclick="jQuery(this).toggleClass('active');showMood()"><span>dinner</span></label>
+    <label class="blue"><radio id="snack"><input type="radio" name="toggle2" onclick="jQuery(this).toggleClass('active');showMood()"><span>snack</span></label>
   </div>
-  <div class="columns" id="mood">
+  <div class="columns" id="mood" data-toggle="buttons">
     <p>Mood:</p>
-    <button id="happy" onclick="jQuery(this).toggleClass('active');showPrices()">Happy</button>
-    <button id="sad" onclick="jQuery(this).toggleClass('active');showPrices()">Sad</button>
-    <button id="motivated" onclick="jQuery(this).toggleClass('active');showPrices()">Motivated</button>
-    <button id="stressed" onclick="jQuery(this).toggleClass('active');showPrices()">Stressed</button>
-    <button id="hangry" onclick="jQuery(this).toggleClass('active');showPrices()">Hangry</button>
-    <button id="bored" onclick="jQuery(this).toggleClass('active');showPrices()">Bored/Curious</button>
+    <label class="blue"><radio id="happy" ><input type="radio" name="toggle3" onclick="jQuery(this).toggleClass('active');showPrices()"><span>Happy</span></label>
+    <label class="blue"><radio id="sad"><input type="radio" name="toggle3" onclick="jQuery(this).toggleClass('active');showPrices()"><span>Sad</span></label>
+    <label class="blue"><radio id="motivated"><input type="radio" name="toggle3" onclick="jQuery(this).toggleClass('active');showPrices()"><span>Motivated</span></label>
+    <label class="blue"><radio id="stressed" ><input type="radio" name="toggle3" onclick="jQuery(this).toggleClass('active');showPrices()"><span>Stressed</span></label>
+    <label class="blue"><radio id="hangry"><input type="radio" name="toggle3" onclick="jQuery(this).toggleClass('active');showPrices()"><span>Hangry</span></label>
+    <label class="blue"><radio id="bored"><input type="radio" name="toggle3" onclick="jQuery(this).toggleClass('active');showPrices()"><span>Bored</span></label>
   </div>
-  <div class="columns" id="prices">
+  <div class="columns" id="prices" data-toggle="buttons">
     <p>Expense:</p>
-    <button id="$" onclick="jQuery(this).toggleClass('active');showButton()">Inexpensive ($)</button>
-    <button id="$$" onclick="jQuery(this).toggleClass('active');showButton()">Moderate ($$)</button>
-    <button id="$$$" onclick="jQuery(this).toggleClass('active');showButton()">Expensive ($$$)</button>
+    <label class="blue"><radio id="$"><input type="radio" name="toggle4" onclick="jQuery(this).toggleClass('active');showButton()"><span>Inexpensive ($)</span></label>
+    <label class="blue"><radio id="$$"><input type="radio" name="toggle4" onclick="jQuery(this).toggleClass('active');showButton()"><span>Moderate ($$)</span></label>
+    <label class="blue"><radio id="$$$"><input type="radio" name="toggle4" onclick="jQuery(this).toggleClass('active');showButton()"><span>Expensive ($$$)</span></label>
   </div>
   </body>
   <div class="bottom">
