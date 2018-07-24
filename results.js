@@ -176,7 +176,6 @@ var preferences = localStorage.getItem('preferences').split(',');
 var restaurants = []
 
 function calculate() {
-  console.log(preferences);
   for(var i=0;i<preferences.length;i++)
     place = preferences[0];
     meal = preferences[1];
@@ -187,7 +186,6 @@ function calculate() {
 
 function iterate(place, meal, expense) {
   for (var value of database.get(place)) {
-    console.log(value);
     var rmood = value[1][0];
     var rmeal = value[1][1];
     var rmoney = value[1][2];
@@ -199,7 +197,6 @@ function iterate(place, meal, expense) {
       }
     }
   }
-  console.log(restaurants);
 }
 
 

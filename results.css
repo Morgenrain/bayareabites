@@ -5,18 +5,35 @@
   color: #0f5737;
 }
 
+.title {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #bef4dbff;
+}
+
 h1 {
   font-size: 32px;
+  background-color: #bef4dbff;
+}
+
+h3 {
+  background-color: #bef4dbff;
 }
 
 .bottom {
-  background-color: #bef4dbff
+  background-color: #bef4dbff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 button {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 5x;
+  padding: 5px;
   border-radius: 4px;
   font-weight: bold;
   font-size: 18px;
