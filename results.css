@@ -6,9 +6,11 @@
 }
 
 .title {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #bef4dbff;
 }
 
@@ -31,7 +33,7 @@ h3 {
 button {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 5x;
+  padding: 5px;
   border-radius: 4px;
   font-weight: bold;
   font-size: 18px;
