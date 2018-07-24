@@ -5,12 +5,27 @@
   color: #0f5737;
 }
 
+.title {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #bef4dbff;
+}
+
 h1 {
   font-size: 32px;
+  background-color: #bef4dbff;
+}
+
+h3 {
+  background-color: #bef4dbff;
 }
 
 .bottom {
-  background-color: #bef4dbff
+  background-color: #bef4dbff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 button {
