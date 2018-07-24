@@ -23,7 +23,7 @@ var str = "Zola Menu";
 var result = str.link("http://www.zolapaloalto.com/menu");
 
 var str = "Tamarine Restaurant Menu";
-var result = str.link("https://www.yelp.com/menu/tamarine-restaurant-palo-alto/dinner-menu");
+var result = str.link;("https://www.yelp.com/menu/tamarine-restaurant-palo-alto/dinner-menu");
 
 var str = "Pampas Menu";
 var result = str.link("http://places.singleplatform.com/pampas-palo-alto/menu?ref=google");
