@@ -21,8 +21,8 @@ paloAlto.set("Mademoiselle Colette", [["happy","bored","motivated","hangry"], ["
 paloAlto.set("Varian Cafe", [["happy","bored", "hangry"], ["breakfast", "lunch"], "$","https://www.yelp.com/biz/varian-cafe-palo-alto?osq=Breakfast"]);
 paloAlto.set("Terrain Cafe", [["happy","motivated","hangry"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/terrain-cafe-palo-alto-2?osq=Breakfast"]);
 paloAlto.set("New York New York Sandwiches", [["happy","motivated","hangry"], ["breakfast","lunch"],"$","https://www.yelp.com/biz/new-york-new-york-sandwiches-palo-alto-2?osq=Breakfast"]);
-paloAlto.set("Hobees Restaurant", [["happy","hangry","bored","stressed"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/hobees-restaurant-palo-alto-2?osq=Breakfast"]);
-paloAlto.set("Tacolicious", [["happy","stressed","bored","sad"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/tacolicious-palo-alto?osq=Breakfast"]);
+paloAlto.set("Hobees Restaurant", [["happy","hangry","bored","motivated"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/hobees-restaurant-palo-alto-2?osq=Breakfast"]);
+paloAlto.set("Tacolicious", [["happy", "stressed", "bored", "sad", "motivated"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/tacolicious-palo-alto?osq=Breakfast"]);
 paloAlto.set("See's Candies", [["happy","stressed","bored","sad"], "snack", "$$","https://www.yelp.com/biz/sees-candies-palo-alto-3"]);
 paloAlto.set("Sharetea", [["happy", "bored","motivated"], "snack" ,"$", "https://www.yelp.com/biz/sharetea-palo-alto-2"]);
 paloAlto.set("Zombierunner", [["happy","motivated", "stressed"], "snack", "$$", "https://www.yelp.com/biz/zombierunner-palo-alto-2?osq=snack"]);
@@ -124,9 +124,9 @@ mountainView.set("Clarkes Charcoal Broiler", [["sad", "stressed", "hangry"], "lu
 mountainView.set("Mamacitas Tacos", [["sad", "stressed", "hangry", "happy"], "lunch", "$", "https://www.yelp.com/biz/mamacitas-tacos-mountain-view"]);
 mountainView.set("Dana Street Roasting Company", [["happy", "sad", "hangry"], "breakfast", "$", "https://www.yelp.com/biz/dana-street-roasting-company-mountain-view?osq=BREAKFAST"]);
 mountainView.set("House of Bagels", [["happy","bored", "motivated", "stressed"], "breakfast", "$", "https://www.yelp.com/biz/house-of-bagels-mountain-view?osq=BREAKFAST"]);
-mountainView.set("Olympus Caffe and Bakery", [["happy", "motivated", "stressed", "sad"], "breakfast", "$$", "https://www.yelp.com/biz/olympus-caffe-and-bakery-mountain-view?osq=BREAKFAST"]);
+mountainView.set("Olympus Caffe and Bakery", [["happy", "motivated", "stressed", "sad", "hangry", "bored"], "breakfast", "$$", "https://www.yelp.com/biz/olympus-caffe-and-bakery-mountain-view?osq=BREAKFAST"]);
 mountainView.set("Eureka", [["happy","stressed","sad"], "breakfast", "$$", "https://www.yelp.com/biz/eureka-mountain-view-2?osq=BREAKFAST"]);
-mountainView.set("Shoreline Lake American Bistro", [["happy", "bored", "motivated"], "breakfast", "$$", "https://www.yelp.com/biz/shoreline-lake-american-bistro-mountain-view?osq=BREAKFAST"]);
+mountainView.set("Shoreline Lake American Bistro", [["sad", "bored", "stressed"], "breakfast", "$$", "https://www.yelp.com/biz/shoreline-lake-american-bistro-mountain-view?osq=BREAKFAST"]);
 mountainView.set("Orens Hummus", [["happy","motivated", "hangry"], "breakfast", "$$", "https://www.yelp.com/biz/orens-hummus-mountain-view-3?osq=BREAKFAST"]);
 mountainView.set("Chilly and Munch", [["happy", "stressed","motivated", "hangry"], "snack", "$", "https://www.yelp.com/biz/chilly-and-munch-mountain-view?osq=Snack"]);
 mountainView.set("Bowl of Heaven", [["happy", "motivated", "hangry"], "snack", "$", "https://www.yelp.com/biz/bowl-of-heaven-mountain-view-2?osq=Snack"]);
