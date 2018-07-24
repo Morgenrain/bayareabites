@@ -88,3 +88,156 @@ a {
   text-decoration: none;
   background-color: #f2f2f2;
 }
+
+//maybe delete
+
+#location {
+    margin:4px;
+
+    float:center;
+}
+
+#location label {
+    float:center;
+    width:170px;
+    margin:4px;
+    background-color:#7ce9b6;;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+
+}
+
+#location label span {
+    text-align:center;
+    font-size: 25px;
+    padding:13px 0px;
+    display:block;
+}
+
+#location label input {
+    position:absolute;
+    top:-20px;
+}
+
+#location input:checked + span {
+  background-color: #bef4dbff;
+}
+
+#location .blue {
+  background-color: #bef4dbff;
+}
+
+#meal .blue {
+  background-color: #bef4dbff;
+}
+
+#meal {
+    margin:4px;
+
+    float:center;
+}
+
+#meal label {
+    float:center;
+    width:170px;
+    margin:4px;
+    background-color:#7ce9b6;;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+
+}
+
+#meal label span {
+    text-align:center;
+    font-size: 25px;
+    padding:13px 0px;
+    display:block;
+}
+
+#meal label input {
+    position:absolute;
+    top:-20px;
+}
+
+#meal input:checked + span {
+  background-color: #bef4dbff;
+}
+
+
+#mood {
+    margin:4px;
+
+    float:center;
+}
+
+#mood label {
+    float:center;
+    width:170px;
+    margin:4px;
+    background-color:#7ce9b6;;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+
+}
+
+#mood label span {
+    text-align:center;
+    font-size: 25px;
+    padding:13px 0px;
+    display:block;
+}
+
+#mood label input {
+    position:absolute;
+    top:-20px;
+}
+
+#mood input:checked + span {
+  background-color: #bef4dbff;
+}
+
+#mood .blue {
+  background-color: #bef4dbff;
+}
+
+#prices {
+    margin:4px;
+
+    float:center;
+}
+
+#prices label {
+    float:center;
+    width:170px;
+    margin:4px;
+    background-color:#7ce9b6;;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+
+}
+
+#prices label span {
+    text-align:center;
+    font-size: 25px;
+    padding:13px 0px;
+    display:block;
+}
+
+#prices label input {
+    position:absolute;
+    top:-20px;
+}
+
+#prices input:checked + span {
+  background-color: #bef4dbff;
+}
+
+#prices .blue {
+  background-color: #bef4dbff;
+}
+
+//end
