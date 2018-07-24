@@ -50,9 +50,9 @@ sunnyvale.set("Hot Point Station", [["bored", "happy", "motivated"], "dinner", "
 sunnyvale.set("El Sabroson de la Linea 2", [["bored", "happy", "sad"], "lunch", "$", "https://www.yelp.com/biz/el-sabroson-de-la-linea-2-sunnyvale"]);
 sunnyvale.set("Calibear Cyber Cafe", [["sad", "happy", "motivated", "bored"], "snack", "$", "https://www.yelp.com/biz/calibear-cyber-cafe-sunnyvale-6?osq=snack"]);
 sunnyvale.set("K Tea Cafe", [["sad", "happy", "stressed", "hangry"], ["breakfast", "snack"], "$", "https://www.yelp.com/biz/k-tea-cafe-sunnyvale?osq=snack"]);
-sunnyvale.set("Hobee's Restaurant", [["sad", "happy", "hangry", "stressed"], "breakfast", "$$", "https://www.yelp.com/biz/hobees-restaurant-sunnyvale?osq=breakfast"]);
+sunnyvale.set("Hobee's Restaurant", [["sad", "happy", "hangry", "stressed", "bored"], "breakfast", "$$", "https://www.yelp.com/biz/hobees-restaurant-sunnyvale?osq=breakfast"]);
 sunnyvale.set("Mission City Cafe", [["happy","motivated", "sad", "stressed"],"breakfast","$","https://www.yelp.com/biz/mission-city-cafe-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("KS Crepes and Cafe", [["happy","sad", "stressed", "hangry"],"breakfast","$","https://www.yelp.com/biz/ks-crepes-and-cafe-sunnyvale-4?osq=Breakfast"]);
+sunnyvale.set("KS Crepes and Cafe", [["happy","sad", "stressed", "hangry", "bored"],"breakfast","$","https://www.yelp.com/biz/ks-crepes-and-cafe-sunnyvale-4?osq=Breakfast"]);
 sunnyvale.set("The Prolific Oven", [["happy", "motivated", "hangry", "stressed"],["breakfast","lunch"],"$", "https://www.yelp.com/biz/the-prolific-oven-sunnyvale-3?osq=Breakfast"]);
 sunnyvale.set("Daily Donuts and Sandwiches", [["happy","sad","stressed", "hangry"], "breakfast","$","https://www.yelp.com/biz/daily-donuts-and-sandwiches-sunnyvale?osq=Breakfast"]);
 sunnyvale.set("Fresh U Order Bakery and Cafe", [["happy","motivated", "hangry"], ["breakfast","lunch"],"$$","https://www.yelp.com/biz/fresh-u-order-bakery-and-cafe-sunnyvale?osq=Breakfast"]);
