@@ -60,7 +60,6 @@ sunnyvale.set("Tia Juana Restuarant", [["happy","sad","hangry"],["breakfast","lu
 sunnyvale.set("In-N-Out", [["happy","sad", "stressed","hangry"],["breakfast","lunch"],"$","https://www.yelp.com/biz/in-n-out-burger-sunnyvale?osq=Breakfast"]);
 sunnyvale.set("Starbucks", [["happy","sad","motivated", "hangry"],["breakfast","lunch"],"$","https://www.yelp.com/biz/starbucks-sunnyvale?osq=Breakfast"]);
 sunnyvale.set("Swathi Tiffins", [["happy","bored","motivated"],["breakfast","lunch"],"$$","https://www.yelp.com/biz/swathi-tiffins-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("Caliber Cyber Cafe", [["happy", "motivated", "hangry", "sad"],"snack","$","https://www.yelp.com/biz/calibear-cyber-cafe-sunnyvale-6"]);
 sunnyvale.set("Sharetea", [["happy","motivated", "stressed", "sad"],"snack","$","https://www.yelp.com/biz/sharetea-sunnyvale-3"]);
 sunnyvale.set("Sugar Mama Desserts", [["happy", "stressed", "sad", "bored"],"snack","$$","https://www.yelp.com/biz/sugar-mama-desserts-sunnyvale-2?osq=Snack"]);
 sunnyvale.set("Las Palmas Cafe and Lounge", [["happy", "motivated", "stressed", "sad"],"snack","$","https://www.yelp.com/biz/las-palmas-cafe-and-lounge-sunnyvale?osq=Snack"]);
