@@ -16,8 +16,6 @@ function hidetriple(){
   if ((array.includes('breakfast')) || (array.includes('snack'))) {
       document.getElementById('$$$').style.visibility = "hidden";
   }
-  console.log(choices);
-  console.log(array);
 }
 
 function showMeal(){
@@ -29,8 +27,9 @@ function showMood(){
 }
 
 function showPrices(){
+  document.getElementById('$$$').type = "hidden";
   document.getElementById('prices').style.visibility = "visible";
-  hidetriple();
+
 }
 
 function showButton(){
