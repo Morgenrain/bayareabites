@@ -139,7 +139,7 @@ cupertino.set("Red Hot Wok", [["happy", "bored", "sad", "stressed"], "dinner", "
 cupertino.set("Aqui Cal-Mex", [["happy", "bored", "hangry", "sad"], "lunch", "$$", "https://www.yelp.com/biz/aqui-cal-mex-cupertino-3"]);
 cupertino.set("Kura Revolving Sushi Bar", [["bored", "happy", "sad", "hangry"], "lunch", "$$", "https://www.yelp.com/biz/kura-revolving-sushi-bar-cupertino-4"]);
 cupertino.set("Yiassoo", [["bored", "hangry", "happy", "sad", "stressed"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/yiassoo-cupertino?osq=Restaurants"]);
-cupertino.set("Philz Coffee", [["happy", "sad", "hangry", "stressed", "bored", "motivated"], ["breakfast", "snack"], "$", "https://www.yelp.com/biz/philz-coffee-cupertino"]);
+cupertino.set("Philz Coffee", [["happy", "sad", "hangry", "stressed", "bored", "motivated"], ["breakfast", "snack"], "$$", "https://www.yelp.com/biz/philz-coffee-cupertino"]);
 cupertino.set("Vitality Bowls", [["happy", "motivated", "hangry", "sad"], ["breakfast", "lunch", "snack"], "$$", "https://www.yelp.com/biz/vitality-bowls-cupertino"]);
 cupertino.set("Fantasia Coffee & Tea", [["happy", "sad", "hangry", "stressed", "bored", "motivated"], ["breakfast", "snack"], "$", "https://www.yelp.com/biz/fantasia-coffee-and-tea-cupertino"]);
 cupertino.set("Bobbies Cafe", [["happy", "hangry", "sad", "stressed"], "breakfast", "$", "https://www.yelp.com/biz/bobbies-cafe-cupertino-3?osq=BREAKFAST"]);
@@ -152,7 +152,7 @@ cupertino.set("Ten Ren Tea", [["happy", "sad", "stressed", "bored"], "snack", "$
 cupertino.set("Sweet Moment", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/sweet-moment-cupertino?osq=Snack"]);
 cupertino.set("T4 Cupertino", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/t4-cupertino-cupertino?osq=Snack"]);
 cupertino.set("Hechaa", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/hechaa-cupertino-4?osq=Snack"]);
-cupertino.set("Pressed Juicery", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/pressed-juicery-cupertino-3?osq=Snack"]);
+cupertino.set("Pressed Juicery", [["happy", "sad", "stressed", "bored"], "snack", "$$", "https://www.yelp.com/biz/pressed-juicery-cupertino-3?osq=Snack"]);
 cupertino.set("Cafe Lattea", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/cafe-lattea-cupertino?osq=Snack"]);
 cupertino.set("Pokeholics", [["bored", "motivated"], "snack","$$", "https://www.yelp.com/biz/pokeholics-cupertino?osq=snack"]);
 cupertino.set("La Terra Bakery and & Cafe", [["stressed", "happy"], "snack","$$", "https://www.yelp.com/biz/la-terra-bakery-and-cafe-cupertino"]);
