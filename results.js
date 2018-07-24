@@ -13,7 +13,7 @@ paloAlto.set("Pampas", [["bored", "happy","motivated"], "dinner", "$$$", "https:
 paloAlto.set("Tamarine Restaurant", [["bored", "happy","motivated"], "lunch", "$$$", "https://www.yelp.com/biz/tamarine-restaurant-palo-alto?osq=Restaurants"]);
 paloAlto.set("Zola", [["bored", "motivated","happy"], "dinner", "$$$", "https://www.yelp.com/biz/zola-palo-alto-2?osq=Restaurants"]);
 paloAlto.set("Bare Bowls", [["happy","bored", "motivated"], "breakfast", "$$", "https://www.yelp.com/biz/bare-bowls-palo-alto?osq=Breakfast"]);
-paloAlto.set("Go Fish Poke Bar", [["happy", "motivated", "stressed", "hangry"], ["breakfast", "lunch"],"$$", "https://www.yelp.com/biz/go-fish-poke-bar-palo-alto?osq=Breakfast"]);
+paloAlto.set("Go Fish Poke Bar", [["happy", "motivated", "sad", "stressed", "hangry"], ["breakfast", "lunch"],"$$", "https://www.yelp.com/biz/go-fish-poke-bar-palo-alto?osq=Breakfast"]);
 paloAlto.set("Taco Bell", [["happy","sad","hangry","stressed"],["breakfast", "lunch"], "$","https://www.yelp.com/biz/taco-bell-palo-alto-5?osq=Breakfast"]);
 paloAlto.set("Joanies", [["happy","motivated","hangry"], ["breakfast", "lunch"], "$$","https://www.yelp.com/biz/joanies-caf%C3%A9-palo-alto-2?osq=Breakfast"]);
 paloAlto.set("Creamery",[["happy","hangry","bored"], ["breakfast"], "$$","https://www.yelp.com/biz/palo-alto-creamery-palo-alto-2?osq=Breakfast"]);
@@ -98,6 +98,8 @@ fremont.set("Sweet Orchid", [["happy", "motivated", "sad", "stressed", "bored"],
 fremont.set("RAWASF Superfoods Health Bar", [["happy", "motivated", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/rawasf-superfoods-health-bar-fremont"]);
 
 var mountainView = new Map();
+mountainView.set("Scratch", [["happy", "sad", "motivated", "bored", "stressed", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/scratch-mountain-view-2?osq=Restaurants"]);
+mountainView.set("Le Petit Bistro", [["happy", "sad", "motivated", "bored", "stressed", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/le-petit-bistro-mountain-view?osq=Restaurants"]);
 mountainView.set("Zareen's", [["happy", "motivated","bored","stressed"], "lunch", "$", "https://www.yelp.com/biz/zareens-mountain-view-3"]);
 mountainView.set("Icicles", [["happy", "bored", "stressed", "sad"], "snack", "$$", "https://www.yelp.com/biz/icicles-mountain-view-2"]);
 mountainView.set("Plaza Deli Cafe", [["happy", "motivated", "stressed", "hangry"], "lunch", "$", "https://www.yelp.com/biz/plaza-deli-cafe-mountain-view-8?osq=Restaurants"]);
