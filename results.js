@@ -24,13 +24,13 @@ paloAlto.set("New York New York Sandwiches", [["happy","motivated","hangry"], ["
 paloAlto.set("Hobees Restaurant", [["happy","hangry","bored","stressed"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/hobees-restaurant-palo-alto-2?osq=Breakfast"]);
 paloAlto.set("Tacolicious", [["happy","stressed","bored","sad"], ["breakfast","lunch"], "$$","https://www.yelp.com/biz/tacolicious-palo-alto?osq=Breakfast"]);
 paloAlto.set("See's Candies", [["happy","stressed","bored","sad"], "snack", "$$","https://www.yelp.com/biz/sees-candies-palo-alto-3"]);
-paloAlto.set("Sharetea", [["happy", "bored","motivated"], "snack" ,"$"   , "https://www.yelp.com/biz/sharetea-palo-alto-2"]);
+paloAlto.set("Sharetea", [["happy", "bored","motivated"], "snack" ,"$", "https://www.yelp.com/biz/sharetea-palo-alto-2"]);
 paloAlto.set("Zombierunner", [["happy","motivated", "stressed"], "snack", "$$", "https://www.yelp.com/biz/zombierunner-palo-alto-2?osq=snack"]);
 paloAlto.set("Yogurtland", [["happy","motivated","sad","stressed"], "snack", "$$", "https://www.yelp.com/biz/yogurtland-palo-alto?osq=snack"]);
 paloAlto.set("Douce France Cafe", [["happy",,"motivated","sad","stressed"], "snack", "$","https://www.yelp.com/biz/douce-france-cafe-palo-alto"]);
-paloAlto.set("Chantal Guillon Macarons and Teas", [["happy","motivated", "sad"], "stressed", "snack", "$$" ,"https://www.yelp.com/biz/chantal-guillon-macarons-and-teas-palo-alto-2?osq=snack"]);
+paloAlto.set("Chantal Guillon Macarons and Teas", [["happy","motivated", "sad"], "stressed", "snack", "$$","https://www.yelp.com/biz/chantal-guillon-macarons-and-teas-palo-alto-2?osq=snack"]);
 paloAlto.set("The Prolific Oven", [["happy","motivated", "sad", "stressed"], "snack", "$$","https://www.yelp.com/biz/the-prolific-oven-palo-alto-2?osq=snack"]);
-paloAlto.set("Whole Foods Market", [["happy", "motivated"], "snack" ,"$$$","https://www.yelp.com/biz/whole-foods-market-palo-alto-2?osq=snack"]);
+paloAlto.set("4290 Bistro & Bar", [["happy","motivated", "sad", "stressed", "hangry", "bored"], ["lunch", "dinner"], "$$","https://www.yelp.com/biz/4290-bistro-and-bar-palo-alto?osq=Restaurants"]);
 
 var sunnyvale = new Map();
 sunnyvale.set("Bento Express", [["hangry", "happy", "sad", "bored"], "lunch", "$", "https://www.yelp.com/biz/bento-express-sunnyvale?osq=Restaurants"]);
@@ -55,17 +55,19 @@ sunnyvale.set("Mission City Cafe", [["happy","motivated", "sad", "stressed"],"br
 sunnyvale.set("KS Crepes and Cafe", [["happy","sad", "stressed", "hangry"],"breakfast","$","https://www.yelp.com/biz/ks-crepes-and-cafe-sunnyvale-4?osq=Breakfast"]);
 sunnyvale.set("The Prolific Oven", [["happy", "motivated", "hangry", "stressed"],["breakfast","lunch"],"$", "https://www.yelp.com/biz/the-prolific-oven-sunnyvale-3?osq=Breakfast"]);
 sunnyvale.set("Daily Donuts and Sandwiches", [["happy","sad","stressed", "hangry"], "breakfast","$","https://www.yelp.com/biz/daily-donuts-and-sandwiches-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("Fresh U Order Bakery and Cafe", [["happy","motivated", "hangry"],["breakfast","lunch"],"$$","https://www.yelp.com/biz/fresh-u-order-bakery-and-cafe-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("Tia Juana Restuarant", [["happy","sad","hangry"],["breakfast","lunch","dinner"],"$$","https://www.yelp.com/biz/tia-juana-restaurant-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("In-N-Out", [["happy","sad", "stressed","hangry"],["breakfast","lunch"],"$","https://www.yelp.com/biz/in-n-out-burger-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("Starbucks", [["happy","sad","motivated", "hangry"],["breakfast","lunch"],"$","https://www.yelp.com/biz/starbucks-sunnyvale?osq=Breakfast"]);
-sunnyvale.set("Swathi Tiffins", [["happy","bored","motivated"],["breakfast","lunch"],"$$","https://www.yelp.com/biz/swathi-tiffins-sunnyvale?osq=Breakfast"]);
+sunnyvale.set("Fresh U Order Bakery and Cafe", [["happy","motivated", "hangry"], ["breakfast","lunch"],"$$","https://www.yelp.com/biz/fresh-u-order-bakery-and-cafe-sunnyvale?osq=Breakfast"]);
+sunnyvale.set("Tia Juana Restuarant", [["happy","sad","hangry"], ["breakfast","lunch","dinner"],"$$","https://www.yelp.com/biz/tia-juana-restaurant-sunnyvale?osq=Breakfast"]);
+sunnyvale.set("In-N-Out", [["happy","sad", "stressed","hangry"], ["breakfast","lunch"],"$","https://www.yelp.com/biz/in-n-out-burger-sunnyvale?osq=Breakfast"]);
+sunnyvale.set("Starbucks", [["happy","sad","motivated", "hangry"], ["breakfast","lunch"],"$","https://www.yelp.com/biz/starbucks-sunnyvale?osq=Breakfast"]);
+sunnyvale.set("Swathi Tiffins", [["happy","bored","motivated"], ["breakfast","lunch"],"$$","https://www.yelp.com/biz/swathi-tiffins-sunnyvale?osq=Breakfast"]);
 sunnyvale.set("Sharetea", [["happy","motivated", "stressed", "sad"],"snack","$","https://www.yelp.com/biz/sharetea-sunnyvale-3"]);
 sunnyvale.set("Sugar Mama Desserts", [["happy", "stressed", "sad", "bored"],"snack","$$","https://www.yelp.com/biz/sugar-mama-desserts-sunnyvale-2?osq=Snack"]);
 sunnyvale.set("Las Palmas Cafe and Lounge", [["happy", "motivated", "stressed", "sad"],"snack","$","https://www.yelp.com/biz/las-palmas-cafe-and-lounge-sunnyvale?osq=Snack"]);
 sunnyvale.set("Quickly", [["happy", "stressed", "motivated"],"snack","$","https://www.yelp.com/biz/quickly-sunnyvale-4?osq=Snack"]);
 sunnyvale.set("Bagel Street Cafe", [["happy","motivated", "hangry"],["breakfast","lunch","snack"],"$","https://www.yelp.com/biz/bagel-street-cafe-sunnyvale?osq=Snack"]);
 sunnyvale.set("Nektar Juice Bar", [["happy","motivated", "stressed"],"snack","$$","https://www.yelp.com/biz/nekter-juice-bar-sunnyvale"]);
+sunnyvale.set("Rok Bistro", [["happy", "motivated", "stressed", "sad", "bored", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/rok-bistro-sunnyvale-2?osq=Restaurants"]);
+sunnyvale.set("Jin Li Yuan", [["happy", "motivated", "stressed", "sad", "bored", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/jin-li-yuan-sunnyvale?osq=Restaurants"]);
 
 var fremont = new Map();
 fremont.set("Din Ding Dumpling House", [["happy", "bored", "sad", "stressed"], "dinner", "$$", "https://www.yelp.com/biz/din-ding-dumpling-house-fremont?osq=Restaurants"]);
@@ -80,9 +82,9 @@ fremont.set("Momo Cook", [["hangry","sad","happy", "stressed"], "lunch", "$", "h
 fremont.set("Bob Sang Korean BBQ and Tofu", [["bored", "happy", "motivated", "hangry"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/bob-sang-korean-bbq-and-tofu-fremont?osq=Restaurants"]);
 fremont.set("Picnic Sandwich Bistro", [["happy", "bored", "motivated", "sad", "stressed", "hangry"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/picnic-sandwich-bistro-fremont?osq=Restaurants"]);
 fremont.set("Frodo Joes Petit Cafe", [["happy", "sad", "stressed", "hangry"], "breakfast", "$", "https://www.yelp.com/biz/frodo-joes-petit-cafe-fremont?osq=Restaurants"]);
-fremont.set("Federicos Grill", [["happy", "bored", "sad", "stressed"], ["breakfast", "dinner"], "$$$", "https://www.yelp.com/biz/federicos-grill-fremont?osq=Restaurants"]);
+fremont.set("Federicos Grill", [["hangry", "sad", "stressed"], ["dinner", "lunch"], "$$$", "https://www.yelp.com/biz/federicos-grill-fremont?osq=Restaurants"]);
 fremont.set("Dish-N-Dash", [["motivated", "happy", "bored", "hangry"], ["lunch", "dinner"], "$$", "https://www.yelp.com/biz/dish-n-dash-fremont-2?osq=Restaurants"]);
-fremont.set("Papillon", [["bored", "happy", "motivated"], "dinner", "$$$", "https://www.yelp.com/biz/papillon-fremont?osq=Restaurants"]);
+fremont.set("Papillon", [["bored", "happy", "motivated"], ["dinner", "lunch"], "$$$", "https://www.yelp.com/biz/papillon-fremont?osq=Restaurants"]);
 fremont.set("Skilletz Cafe", [["happy", "hangry", "sad", "stressed"], "breakfast", "$$", "https://www.yelp.com/biz/skilletz-cafe-fremont?osq=Breakfast"]);
 fremont.set("Country Way", [["happy", "sad", "stressed", "hangry"], "breakfast", "$$", "https://www.yelp.com/biz/country-way-fremont-2?osq=Breakfast"]);
 fremont.set("Cabrillo Park", [["happy", "sad", "stressed", "hangry", "bored"], "breakfast", "$$", "https://www.yelp.com/biz/cabrillo-park-caf%C3%A9-fremont-3?osq=Breakfast"]);
@@ -96,8 +98,11 @@ fremont.set("Bowl of Heaven", [["happy", "motivated", "sad", "stressed", "hangry
 fremont.set("GOGO Dessert", [["happy", "motivated", "sad", "stressed", "hangry", "bored"], "snack", "$", "https://www.yelp.com/biz/gogo-dessert-fremont?osq=snack"]);
 fremont.set("Sweet Orchid", [["happy", "motivated", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/sweet-orchid-fremont?osq=snack"]);
 fremont.set("RAWASF Superfoods Health Bar", [["happy", "motivated", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/rawasf-superfoods-health-bar-fremont"]);
+fremont.set("Saki’s Spin A Yarn Restaurant", [["happy", "bored", "sad", "stressed", "motivated", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/sakis-spin-a-yarn-restaurant-fremont?osq=Restaurants"]);
+fremont.set("Massimo’s", [["happy", "bored", "sad", "stressed", "motivated", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/massimos-fremont?osq=Restaurants"]);
 
 var mountainView = new Map();
+mountainView.set("Dong Lai Shun", [["happy", "sad", "motivated", "bored", "stressed", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/dong-lai-shun-mountain-view?osq=Restaurants"]);
 mountainView.set("Scratch", [["happy", "sad", "motivated", "bored", "stressed", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/scratch-mountain-view-2?osq=Restaurants"]);
 mountainView.set("Le Petit Bistro", [["happy", "sad", "motivated", "bored", "stressed", "hangry"], ["lunch", "dinner"], "$$$", "https://www.yelp.com/biz/le-petit-bistro-mountain-view?osq=Restaurants"]);
 mountainView.set("Zareen's", [["happy", "motivated","bored","stressed"], "lunch", "$", "https://www.yelp.com/biz/zareens-mountain-view-3"]);
@@ -131,8 +136,8 @@ mountainView.set("California Mochi", [["happy", "motivated", "hangry", "stressed
 
 var cupertino = new Map();
 cupertino.set("Lazy Dog Restaurant & Bar", [["happy", "sad", "stressed", "hangry"], ["lunch", "dinner"], "$$", "https://www.yelp.com/biz/lazy-dog-restaurant-and-bar-cupertino"]);
-cupertino.set("Gochi Japanese Fusion Tapas", [["happy", "bored", "motivated", "hangry"], "dinner", "$$$", "https://www.yelp.com/biz/gochi-japanese-fusion-tapas-cupertino"]);
-cupertino.set("Galpão Gaucho Brazilian Steakhouse ", [["happy", "bored", "hangry", "sad", "stressed"], "dinner", "$$$", "https://www.yelp.com/biz/plaza-deli-cafe-mountain-view-8?osq=Restaurants"]);
+cupertino.set("Gochi Japanese Fusion Tapas", [["happy", "bored", "motivated"], "dinner", "$$$", "https://www.yelp.com/biz/gochi-japanese-fusion-tapas-cupertino"]);
+cupertino.set("Galpão Gaucho Brazilian Steakhouse", [["happy", "bored", "hangry", "sad", "stressed", "motivated"], "dinner", "$$$", "https://www.yelp.com/biz/plaza-deli-cafe-mountain-view-8?osq=Restaurants"]);
 cupertino.set("Ike’s Love & Sandwiches", [["motivated", "bored", "sad", "stressed"], "lunch", "$$", "https://www.yelp.com/biz/ikes-love-and-sandwiches-cupertino-2"]);
 cupertino.set("Roger's Deli", [["happy", "motivated", "hangry", "sad", "stressed"], "lunch", "$", "https://www.yelp.com/biz/zareens-mountain-view-3"]);
 cupertino.set("Red Hot Wok", [["happy", "bored", "sad", "stressed"], "dinner", "$$", "https://www.yelp.com/biz/red-hot-wok-cupertino"]);
@@ -156,6 +161,7 @@ cupertino.set("Pressed Juicery", [["happy", "sad", "stressed", "bored"], "snack"
 cupertino.set("Cafe Lattea", [["happy", "sad", "stressed", "bored"], "snack", "$", "https://www.yelp.com/biz/cafe-lattea-cupertino?osq=Snack"]);
 cupertino.set("Pokeholics", [["bored", "motivated"], "snack","$$", "https://www.yelp.com/biz/pokeholics-cupertino?osq=snack"]);
 cupertino.set("La Terra Bakery and & Cafe", [["stressed", "happy"], "snack","$$", "https://www.yelp.com/biz/la-terra-bakery-and-cafe-cupertino"]);
+cupertino.set("Haidilao Hot Pot", [["happy", "bored", "hangry", "sad", "stressed", "motivated"], ["lunch", "dinner", "$$$", "https://www.yelp.com/biz/haidilao-hot-pot-cupertino?osq=Restaurants"]);
 
 
 var database = new Map()
