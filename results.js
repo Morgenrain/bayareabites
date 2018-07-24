@@ -167,10 +167,11 @@ var restaurants = []
 
 function calculate() {
   console.log(preferences);
-  place = preferences[0];
-  meal = preferences[1];
-  mood = preferences[2];
-  expense = preferences[3];
+  for(var i=0;i<preferences.length;i++)
+    place = preferences[0];
+    meal = preferences[1];
+    mood = preferences[2];
+    expense = preferences[3];
   iterate(place, meal, expense);
 }
 
