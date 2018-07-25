@@ -143,7 +143,7 @@ cupertino.set("Roger's Deli", [["happy", "motivated", "hangry", "sad", "stressed
 cupertino.set("Red Hot Wok", [["happy", "bored", "sad", "stressed"], "dinner", "$$", "https://www.yelp.com/biz/red-hot-wok-cupertino"]);
 cupertino.set("Aqui Cal-Mex", [["happy", "bored", "hangry", "sad"], "lunch", "$$", "https://www.yelp.com/biz/aqui-cal-mex-cupertino-3"]);
 cupertino.set("Kura Revolving Sushi Bar", [["bored", "happy", "sad", "hangry"], "lunch", "$$", "https://www.yelp.com/biz/kura-revolving-sushi-bar-cupertino-4"]);
-cupertino.set("Yiassoo", [["bored", "hangry", "happy", "sad", "stressed"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/yiassoo-cupertino?osq=Restaurants"]);
+cupertino.set("Yiassoo", [["bored", "hangry", "happy", "sad", "stressed", "motivated"], ["lunch", "dinner"], "$", "https://www.yelp.com/biz/yiassoo-cupertino?osq=Restaurants"]);
 cupertino.set("Philz Coffee", [["happy", "sad", "hangry", "stressed", "bored", "motivated"], ["breakfast", "snack"], "$$", "https://www.yelp.com/biz/philz-coffee-cupertino"]);
 cupertino.set("Vitality Bowls", [["happy", "motivated", "hangry", "sad"], ["breakfast", "lunch", "snack"], "$$", "https://www.yelp.com/biz/vitality-bowls-cupertino"]);
 cupertino.set("Fantasia Coffee & Tea", [["happy", "sad", "hangry", "stressed", "bored", "motivated"], ["breakfast", "snack"], "$", "https://www.yelp.com/biz/fantasia-coffee-and-tea-cupertino"]);

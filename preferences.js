@@ -27,7 +27,7 @@ function showMood(){
 }
 
 function showPrices(){
-  document.getElementById('$$$').type = "hidden";
+  document.getElementById('$$$').visibility = "hidden";
   document.getElementById('prices').style.visibility = "visible";
 
 }
